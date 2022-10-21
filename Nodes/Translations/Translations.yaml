@@ -6,4 +6,11 @@ Children:
   DataType: String
   ValueRank: OneOrMoreDimensions
   ArrayDimensions: [0,0]
-  Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [1,1],
+    "Body": [
+     ""
+    ]
+   }
