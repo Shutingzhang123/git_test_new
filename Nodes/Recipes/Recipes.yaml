@@ -39,3 +39,50 @@ Children:
   - Class: Reference
     Target: ns=8;i=60
     Direction: Forward
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"e910c72bee255783a9dc24b62ea63192","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+- Name: RecipeSchema2
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=8;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=60
+    Direction: Forward
