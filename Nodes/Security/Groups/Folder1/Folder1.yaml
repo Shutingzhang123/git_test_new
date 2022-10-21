@@ -1,0 +1,7 @@
+Name: Folder1
+Id: g=df140370d8c8ad2dce5ab2262a4bec36
+Type: FolderType
+Children:
+- Name: Group2
+  Id: g=22d5f7bb74c699fa94b6999aa4573409
+  Type: GroupType

@@ -1,3 +1,38 @@
 Name: Users
 Id: g=67431294a41ec665776057bf945d70ae
 Type: FolderType
+Children:
+- Name: User1
+  Id: g=613f21c3f808a07b38258edc6ef5e618
+  Type: UserType
+  Children:
+  - Name: Password
+    Id: g=059987de32c3d0a55dbc35dd12465059
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=67239ba61b5fc0e16bca99f1733dc6f6
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[210,108,201,2,11,9,33,149,229,112,79,73,98,56,145,4,255,198,162,139,193,25,66,31,168,42,0,189,226,103,25,191],"Salt":[93,125,162,37,62,66,230,212,206,160,126,174,156,207,152,211,105,217,119,165,8,28,163,187,181,164,242,186,220,148,155,148]}}
+    - Name: ChangeTimestamp
+      Id: g=c271a69e08385ab5e67c8a11a400ce11
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2022-10-21T05:38:30.4550924"
+    - Name: History
+      Id: g=f0f913892e8723b161048f512ceb79b2
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[210,108,201,2,11,9,33,149,229,112,79,73,98,56,145,4,255,198,162,139,193,25,66,31,168,42,0,189,226,103,25,191],"Salt":[93,125,162,37,62,66,230,212,206,160,126,174,156,207,152,211,105,217,119,165,8,28,163,187,181,164,242,186,220,148,155,148]}}]
+- File: Folder1/Folder1.yaml
+- File: Folder2/Folder2.yaml

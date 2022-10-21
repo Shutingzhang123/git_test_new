@@ -5,3 +5,4 @@ Children:
 - Name: Group1
   Id: g=dd0393c2d90a9a1212913f8c60fd5d33
   Type: GroupType
+- File: Folder1/Folder1.yaml
