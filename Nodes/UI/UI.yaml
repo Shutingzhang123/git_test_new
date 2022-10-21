@@ -166,14 +166,14 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 132.0
-  - Name: Rectangle1
+  - Name: Rectanglerename
     Type: Rectangle
     Children:
     - Name: BorderColor
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#000000"
+      Value: "#0000ff"
     - Name: FillColor
       Type: BaseDataVariableType
       DataType: Color
@@ -183,17 +183,17 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 1.0
+      Value: 5.0
     - Name: CornerRadius
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
+      Value: 30.0
     - Name: HitTestVisible
       Type: BaseDataVariableType
       DataType: Boolean
       ModellingRule: Optional
-      Value: false
+      Value: true
     - Name: Blink
       Type: BaseDataVariableType
       DataType: Boolean
